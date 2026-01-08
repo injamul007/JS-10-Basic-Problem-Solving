@@ -43,3 +43,18 @@ function isPalindrome(str) {
 }
 
 // isPalindrome('madam')
+
+
+//? Problem 4: Find the Maximum Number
+
+function findMaxNumber(arr) {
+  let currentMax = arr[0]
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i] > currentMax) {
+      currentMax = arr[i]
+    }
+  }
+  console.log(currentMax)
+}
+
+// findMaxNumber([5, 1, 9, 3])
