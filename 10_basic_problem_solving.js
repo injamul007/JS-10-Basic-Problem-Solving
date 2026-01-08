@@ -86,3 +86,18 @@ function sumOfAllNum(arr) {
 }
 
 // sumOfAllNum([1, 2, 3, 4])
+
+
+//? Problem 7: Find Even Numbers in an Array
+
+function evenNumInArr(arr) {
+  const evenNumArr = []
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i] % 2 === 0) {
+      evenNumArr.push(arr[i])
+    }
+  }
+  console.log(evenNumArr)
+}
+
+// evenNumInArr([1, 2, 3, 4, 5, 6])
