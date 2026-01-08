@@ -117,3 +117,16 @@ function capitalizeFirstLetter(str) {
 }
 
 // capitalizeFirstLetter("hello world")
+
+
+//? Problem 9: Find the Factorial of a Number
+
+function factorialNumber(num) {
+  let result = 1;
+  for(let i = 1; i <= num; i++) {
+    result = result*i
+  }
+  console.log(result)
+}
+
+// factorialNumber(5)
