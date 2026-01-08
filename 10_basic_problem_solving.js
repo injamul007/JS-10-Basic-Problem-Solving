@@ -101,3 +101,19 @@ function evenNumInArr(arr) {
 }
 
 // evenNumInArr([1, 2, 3, 4, 5, 6])
+
+
+//? Problem 8: Capitalize First Letter of Each Word
+
+function capitalizeFirstLetter(str) {
+  const wordsInArr = str.split(" ")
+  let backToStr = ''
+  
+  for(let i = 0; i < wordsInArr.length; i++) {
+    backToStr = backToStr + " " + wordsInArr[i][0].toUpperCase() + wordsInArr[i].slice(1)
+  }
+  console.log(backToStr)
+
+}
+
+// capitalizeFirstLetter("hello world")
