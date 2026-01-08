@@ -27,3 +27,19 @@ function countVowels(str) {
 }
 
 // countVowels("programming")
+
+
+//? Problem 3: Check for Palindrome
+
+function isPalindrome(str) {
+  const strReverse = str.split("").reverse().join("")
+  let boolean;
+  if(str === strReverse) {
+    boolean = true;
+  } else {
+    boolean = false
+  }
+  console.log(boolean)
+}
+
+// isPalindrome('madam')
